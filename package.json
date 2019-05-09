@@ -6,7 +6,7 @@
     "license": "MIT",
     "author": "Team3",
     "scripts": {
-        "start": "cd ReStyle-Frontend && ng build && cd ../ReStyle-Backend && tsc && ts-node ./src/server.ts"
+        "start": "node ./ReStyle-Backend/build/server"
     },
     "devDependencies": {
         "@types/express": "^4.16.1",

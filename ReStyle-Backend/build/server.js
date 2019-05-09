@@ -19,7 +19,7 @@ client.query('SELECT t.* FROM dev.restyle_user t LIMIT 501', function (err, res)
     client.end();
 });
 // --------------------------------------------------------------------------------------------
-app.use('/', express_1.default.static('../ReStyle-Frontend/dist/ReStyle'));
+app.use('/', express_1.default.static('./ReStyle-Frontend/dist/ReStyle'));
 // this is an example used to test sending simple data to the front end
 app.get('/ajax', function (req, res) {
     res.send({ 'text': 'hello angular' });

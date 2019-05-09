@@ -25,7 +25,7 @@ app.get('/ajax', function (req, res) {
     res.send({ 'text': 'hello angular' });
 });
 
-let port = 8000;
+let port = process.env.PORT || 1337;
 app.listen(port, function () {
     console.log("Application is listening on port" + port + "!");
 });

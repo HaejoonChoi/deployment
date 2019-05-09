@@ -1,0 +1,11 @@
+{
+    "name": "ReStyle",
+    "description": "Simple Hello World Node.js sample for Azure App Service",
+    "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "author": "Team3",
+    "scripts": {
+        "start": ""cd ReStyle-Frontend && ng build && cd ../ReStyle-Backend && tsc && ts-node ./src/server.ts""
+    }
+}

@@ -6,6 +6,6 @@
     "license": "MIT",
     "author": "Team3",
     "scripts": {
-        "start": ""cd ReStyle-Frontend && ng build && cd ../ReStyle-Backend && tsc && ts-node ./src/server.ts""
+        "start": "cd ReStyle-Frontend && ng build && cd ../ReStyle-Backend && tsc && ts-node ./src/server.ts"
     }
 }
